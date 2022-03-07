@@ -4,7 +4,6 @@
 // also fill out the body
 void multiples (int& sum, int x, int n)
 {
-    sum = 1;
-    for (int i = 1; i <= n; i++)
+    for (int i = 0; i <= n; i++)
         sum += i * x;
 }
